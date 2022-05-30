@@ -1,15 +1,16 @@
-# Run Buddy
-
+# Run Buddy, Inc
 
 ## Purpose
-This website is for you to pair yourself up with personal trainer
+A website that offers fitness training services. 
 
-## Built with 
+## Built With
 * HTML
 * CSS
 
 ## Website
-https://leunggerry.github.io/run-buddy/
+https://lernantino.github.io/run-buddy/
 
 ## Contribution
-Gerry Leung
+Made with ❤️ by Gerry
+
+### ©️2019 Run Buddy, Inc 
