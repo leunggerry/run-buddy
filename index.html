@@ -80,17 +80,23 @@
 
           <p>
             Have you worked out with a trainer before?
-            <input type="radio" name="trainer-confirm" id="trainer-yes" />
-            <label for="trainer-yes">Yes</label>
-            <input type="radio" name="trainer-confirm" id="trainer-no" />
-            <label for="trainer-no">No</label>
+            <span class="radio-wrapper">
+              <input type="radio" name="trainer-confirm" id="trainer-yes" />
+              <label for="trainer-yes">Yes</label>
+            </span>
+            <span class="radio-wrapper">
+              <input type="radio" name="trainer-confirm" id="trainer-no" />
+              <label for="trainer-no">No</label>
+            </span>
           </p>
 
           <p>
-            <label for="consent-age">
-              I acknowledge that I am at least 18 years of age.
-            </label>
-            <input type="checkbox" name="checkpoint1" id="consent-age" />
+            <span class="checkbox-wrapper">
+              <input type="checkbox" name="checkpoint1" id="consent-age" />
+              <label for="consent-age">
+                I acknowledge that I am at least 18 years of age.
+              </label>
+            </span>
           </p>
 
           <button type="submit">Get Running!</button>
@@ -177,7 +183,7 @@
       <div class="flex-row">
         <h2 class="section-title primary-border">Meet the Trainers</h2>
       </div>
-      
+
       <div class="trainers">
         <article class="trainer">
           <img
