@@ -27,10 +27,6 @@ header nav {
     margin: 7px 0;
 }
 
-/* header nav ul li {
-    display: inline;
-} */
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +36,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 35px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -109,7 +105,7 @@ section {
     color: #fff;
     font-size: 18px;
     line-height: 1.2;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 .hero-cta h2 {
@@ -150,20 +146,7 @@ section {
     font-size: 16px;
 }
 
-/* Section Styleing*/
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.steps {
-    background: #fce138;
-}
-
+/* Section Title Styles*/
 .section-title {
     font-size: 48px;
     color: #024e76;
@@ -182,7 +165,32 @@ section {
     border-color: #39a6b2;
 }
 
-.steps h3 {
+/* what we do styles */
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.steps {
+    background: #fce138;
+}
+
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step h3 {
     color: #39a6b2;
     font-size: 46px;
     flex: 1 30%;
@@ -218,31 +226,24 @@ section {
     line-height: 1.5;
     color: #024e76;
 }
-.step {
-    margin: 50px, auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #39a6b2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
+
+/* What you do styles end */
+
 
 /* trainers section */
 .trainers {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .trainer {
     margin: 0 auto 20px auto;
+    flex: 1;
     background: #024e76;
     color: #fce138;
-    flex: 1;
 }
 
 .trainer img {
@@ -251,17 +252,11 @@ section {
 
 .trainer-bio {
     padding: 25px;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
+    line-height: 1.3;
 }
 
 .trainer-bio {
+    padding: 25px;
     line-height: 1.3;
 }
 
@@ -338,10 +333,18 @@ section {
     color: #fce138;
 }
 
+/* UTILITIES */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
 .flex-row {
     display: flex;
 }
-
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px){
     /* this will be applied on any screen smaller thatn 980px to 768px */
